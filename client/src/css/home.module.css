@@ -1,0 +1,21 @@
+.flex{
+	margin-top: 0.5%;
+	display: flex;
+	justify-content: space-between;
+	justify-items: space-between;
+	align-content: center;
+	align-items: center;
+}
+.activeLink{
+	background-color: green;
+}
+select{
+	color: white;
+	background-color: black;
+	height: 100%;
+	margin: auto 10px;
+}
+select::selected{
+	color: red;
+	background-color: red;
+}

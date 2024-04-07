@@ -3,6 +3,7 @@ const app = express();
 const cors = require("cors");
 const jwt = require("jsonwebtoken");
 const fs = require("fs")
+const bcrypt = require("bcrypt")
 require('dotenv').config();
 
 require("./config/mongoose.config");
